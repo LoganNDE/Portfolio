@@ -31,9 +31,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Logan N.R. — Full Stack Developer & Marketing",
+  title: "Logan N.R. — Full Stack Developer",
   description:
-    "Full Stack Developer especializado en Next.js, Laravel y e-commerce. Transformo ideas en productos digitales que venden y escalan.",
+    "Desarrollo web full stack. Del diseño al despliegue, construyendo productos digitales que funcionan y crecen.",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+    other: [
+      { rel: "android-chrome", url: "/android-chrome-192x192.png", sizes: "192x192" },
+      { rel: "android-chrome", url: "/android-chrome-512x512.png", sizes: "512x512" },
+    ],
+  },
 };
 
 export default function RootLayout({

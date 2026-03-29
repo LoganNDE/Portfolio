@@ -8,16 +8,16 @@ gsap.registerPlugin(ScrollTrigger);
 const testimonials = [
   {
     quote:
-      "Logan entregó el proyecto en tiempo récord sin sacrificar calidad. El e-commerce que construyó duplicó nuestras conversiones el primer mes.",
-    author: "Carlos Mendoza",
-    role: "CEO · TiendaX",
-    initials: "CM",
+      "Lo que Logan desarrolló no es software genérico — es una herramienta construida exactamente para nuestro negocio. Ha transformado la forma en que gestionamos pedidos y clientes.",
+    author: "Andy",
+    role: "COO · Beedata",
+    initials: "BEE",
   },
   {
     quote:
       "Su conocimiento técnico y su capacidad para entender el negocio lo hacen único. No solo escribe código, resuelve problemas reales.",
-    author: "Ana Ruiz",
-    role: "Directora de Marketing · AgenciaY",
+    author: "Andy",
+    role: "COO · AgenciaY",
     initials: "AR",
   },
   {

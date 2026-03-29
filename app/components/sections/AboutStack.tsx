@@ -8,9 +8,10 @@ import {
   SiNextdotjs, SiReact, SiTypescript, SiTailwindcss,
   SiLaravel, SiPhp, SiNodedotjs, SiMysql, SiPostgresql,
   SiShopify, SiWordpress, SiPrestashop, SiStripe,
-  SiGit, SiGoogleanalytics, SiGooglesearchconsole,
+  SiGit, SiGooglesearchconsole,
   SiGoogle,
   SiMeta,
+  SiJavascript,
 } from "react-icons/si";
 import { stackCategories, statsData } from "@/app/data/stack";
 
@@ -20,6 +21,7 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; style?: React
   "Next.js":      SiNextdotjs,
   "React":        SiReact,
   "TypeScript":   SiTypescript,
+  "GSAP":         SiJavascript,
   "Tailwind CSS": SiTailwindcss,
   "Laravel":      SiLaravel,
   "PHP":          SiPhp,
